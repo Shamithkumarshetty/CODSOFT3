@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="3.css">
+<script src="3.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="formstyle">
+        <form name="form1">
+            <input type="text"  name="answer" id="calc"><br><br>
+            <input type="button" value="1" onclick="insert(this.value)">
+            <input type="button" value="2" onclick="insert(this.value)" >
+            <input type="button" value="3" onclick="insert(this.value)"> 
+            <input type="button" value="+" onclick="insert(this.value)">
+            <input type="button" value="4" onclick="insert(this.value)">
+            <input type="button" value="5" onclick="insert(this.value)">
+            <input type="button" value="6" onclick="insert(this.value)"> 
+            <input type="button" value="-" onclick="insert(this.value)">
+            <input type="button" value="7" onclick="insert(this.value)">
+            <input type="button" value="8" onclick="insert(this.value)">
+            <input type="button" value="9" onclick="insert(this.value)">
+            <input type="button" value="*" onclick="insert(this.value)">
+            <br><br>
+
+            <input type="button" value="/"  onclick="insert(this.value)">
+            <input type="button" value="0" onclick="insert(this.value)">
+            <input type="button" value="." onclick="insert(this.value)">
+
+            <input type="button" value="=" onclick="calculate()">
+            <input type="button" value="clear all"  id="clear" onclick="clearall()">
+            
+        </form>
+    </div>
+</body>
+</html>
